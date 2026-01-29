@@ -24,13 +24,14 @@ model Standing {
 }
 
 model Match {
-  id             Int      @id
-  title          String
-  shortTitle     String?
-  date           DateTime
-  venue          String
-  teamA          String
-  teamB          String
-  winner         String?
-  winningTeamId  Int?
+  id            Int      @id
+  title         String
+  shortTitle    String?
+  date          DateTime
+  venue         String
+  teamA         String
+  teamB         String
+  winner        String?
+  winningTeamId Int?
 }
+

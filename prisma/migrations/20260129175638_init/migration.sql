@@ -24,17 +24,13 @@ CREATE TABLE "Standing" (
 CREATE TABLE "Match" (
     "id" INTEGER NOT NULL,
     "title" TEXT NOT NULL,
-    "shortTitle" TEXT NOT NULL,
-    "matchNumber" INTEGER NOT NULL,
-    "status" TEXT NOT NULL,
-    "result" TEXT,
-    "winningTeamId" INTEGER,
+    "shortTitle" TEXT,
+    "date" TIMESTAMP(3) NOT NULL,
+    "venue" TEXT NOT NULL,
     "teamA" TEXT NOT NULL,
     "teamB" TEXT NOT NULL,
-    "venue" TEXT NOT NULL,
-    "city" TEXT NOT NULL,
-    "startDate" TIMESTAMP(3) NOT NULL,
-    "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "winner" TEXT,
+    "winningTeamId" INTEGER,
 
     CONSTRAINT "Match_pkey" PRIMARY KEY ("id")
 );
