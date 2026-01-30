@@ -27,7 +27,7 @@ async function loadStandings() {
     });
   }
 
-  console.log("✅ Standings loaded");
+  console.log("Standings loaded");
 }
 
 loadStandings()
