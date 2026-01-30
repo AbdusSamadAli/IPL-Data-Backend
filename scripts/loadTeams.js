@@ -23,7 +23,7 @@ async function loadTeams() {
     });
   }
 
-  console.log("✅ Teams loaded");
+  console.log("Teams loaded");
 }
 
 loadTeams()
