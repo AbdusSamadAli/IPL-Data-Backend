@@ -87,7 +87,7 @@ async function loadMatches() {
     inserted++;
   }
 
-  console.log(`✅ Matches loaded: ${inserted}`);
+  console.log(`Matches loaded: ${inserted}`);
 }
 
 loadMatches()
